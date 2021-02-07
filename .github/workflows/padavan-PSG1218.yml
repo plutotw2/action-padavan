@@ -109,4 +109,3 @@ jobs:
       with:
         name: Padavan-${{env.FILE_NAME}}
         path: ${{ env.IMAGES_PATH }}
-
