@@ -37,3 +37,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_DDNS_SSL=y" >> .config
 
 ### Include HTTPS support. openssl ~1.2MB
 echo "CONFIG_FIRMWARE_INCLUDE_HTTPS=y" >> .config
+
+echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config
+echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >> .config
+echo "CONFIG_FIRMWARE_INCLUDE_WYY=y" >> .config
